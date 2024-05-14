@@ -1,6 +1,5 @@
 # Modules Used:
 
----
 Automation
 click
 cv2
@@ -26,4 +25,3 @@ speedtest
 wikipedia
 winsound
 wolframalpha
----
