@@ -38,6 +38,8 @@ PAPPU offers entertainment options and facilitates downloads for gaming enthusia
 - **YouTube Automation**: Control YouTube playback with voice commands like pause, resume, full screen, and more, enhancing your entertainment experience.
 - **Game Downloads**: Download games from Ocean of Games website with ease, providing access to a wide range of gaming options.
 
+### ...and many more
+
 ## Setup
 
 1. **Clone the repository**:
