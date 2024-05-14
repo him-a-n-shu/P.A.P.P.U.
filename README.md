@@ -1,4 +1,4 @@
-# Personal Voice Assistant
+# PAPPU - Personalized Assistant for Practical and Productive Use
 
 ---
 This is an advanced Python-based personal assistant that streamlines various tasks to enhance productivity and efficiency. Leveraging a combination of libraries, APIs, and automation techniques, Jarvis offers a wide range of features, including task automation, data analysis, location services, entertainment options, and more.
@@ -7,7 +7,7 @@ This is an advanced Python-based personal assistant that streamlines various tas
 
 ### 1. Automated Task Handling
 
-It simplifies common tasks by automating them through voice commands or predefined actions.
+PAPPU simplifies common tasks by automating them through voice commands or predefined actions.
 
 - **Sending Messages**: Easily send WhatsApp messages to your contacts without manually accessing the application.
 - **Setting Alarms**: Set alarms for important reminders or wake-up calls, ensuring you stay organized.
@@ -18,7 +18,7 @@ It simplifies common tasks by automating them through voice commands or predefin
 
 ### 2. Data Analysis
 
-It offers robust data analysis capabilities to perform various statistical calculations and QR code operations.
+PAPPU offers robust data analysis capabilities to perform various statistical calculations and QR code operations.
 
 - **Statistics**: Calculate mean, median, mode, variance, standard deviation, and range of given data, facilitating data analysis tasks.
 - **QR Code Generation and Reading**: Generate QR codes and decode them from images, enabling easy sharing of information.
@@ -26,14 +26,14 @@ It offers robust data analysis capabilities to perform various statistical calcu
 
 ### 3. Location and Navigation
 
-With location services and navigation capabilities, It assists in finding locations and obtaining relevant information.
+With location services and navigation capabilities, PAPPU assists in finding locations and obtaining relevant information.
 
 - **Location Services**: Retrieve your current location and find distances using Google Maps, aiding in navigation.
 - **Temperature Information**: Obtain temperature information for any location, keeping you informed about weather conditions.
 
 ### 4. Entertainment and Downloads
 
-It offers entertainment options and facilitates downloads for gaming enthusiasts.
+PAPPU offers entertainment options and facilitates downloads for gaming enthusiasts.
 
 - **YouTube Automation**: Control YouTube playback with voice commands like pause, resume, full screen, and more, enhancing your entertainment experience.
 - **Game Downloads**: Download games from Ocean of Games website with ease, providing access to a wide range of gaming options.
@@ -67,6 +67,7 @@ It offers entertainment options and facilitates downloads for gaming enthusiasts
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or create a pull request.
+If you have suggestions related to UI, feel free to reach.
 
 ## License
 
