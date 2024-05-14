@@ -1,7 +1,7 @@
 # PAPPU - Personalized Assistant for Practical and Productive Use
 
 ---
-This is an advanced Python-based personal assistant that streamlines various tasks to enhance productivity and efficiency. Leveraging a combination of libraries, APIs, and automation techniques, Jarvis offers a wide range of features, including task automation, data analysis, location services, entertainment options, and more.
+PAPPU is an advanced Python-based personal assistant that streamlines various tasks to enhance productivity and efficiency. Leveraging a combination of libraries, APIs, and automation techniques, Jarvis offers a wide range of features, including task automation, data analysis, location services, entertainment options, and more.
 
 ## Features
 
