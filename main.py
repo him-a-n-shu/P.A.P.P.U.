@@ -68,10 +68,9 @@ from bs4 import BeautifulSoup
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-#print(voices[0].id)
 engine.setProperty('voice', voices[0].id)
 engine.setProperty('rate', 180-200)
-contacts = {'monti': "+918595756912", 'mummy': "+918700509854", 'bhai': "+918882686908", "papa":"+919810231562", "mosi":"+919560663172", "ritanshu":"+919818310063", "yash":"+918178892513"}
+contacts = {} #Add your contacts here!!!
 what_grp_diary = {}
 
 
@@ -93,8 +92,6 @@ def wishMe():
     speak("I am PAPPU Sir. Please tell me how may I help you")
 
 def takeCommand():
-    #It takes microphone input from the user and returns string output
-
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listenning ...")
@@ -257,7 +254,7 @@ def TaskExecution():
 
         elif 'where is' in query:
             place = query.replace("where is","")
-            place = query.replace("harry","")
+            place = query.replace("PAPPU","")
             Automation.Google_maps(place)
 
         #Remote Connection
@@ -535,7 +532,7 @@ def TaskExecution():
         elif 'your day' in query:
             speak("Its been ok, thanks for asking")
 
-        elif 'hello harry' in query:
+        elif 'hello PAPPU' in query:
             wishMe()
         
         elif 'how are you' in query:
@@ -696,7 +693,7 @@ def TaskExecution():
             strDay = datetime.datetime.now().date()
             speak(f"Sir, The Day is {strDay} and current time is {strTime}")
 
-        elif 'play harry potter' in query:
+        elif 'play Harry Potter' in query:
             movies_dir = 'D:\\Harry Potter'
             HP = os.listdir(movies_dir)
             print(HP)
@@ -1027,7 +1024,7 @@ def TaskExecution():
             pdf_mergedname = takeCommand().lower()    
             merge_pdf(paths, output= f'{pdf_mergedname}.pdf')
 
-        #send harry on sleep
+        #send PAPPU on sleep
         elif 'sleep' in query:
             speak("Okay sir, I am going to sleep you can call me anytime.")
             pass
